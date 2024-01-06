@@ -8,7 +8,7 @@ export function buildResolvers (srcPath: string): webpack.ResolveOptions {
         modules: [srcPath, 'node_modules'],
         mainFiles: ['index'],
         alias: {
-            
+
         }
     }
 }
